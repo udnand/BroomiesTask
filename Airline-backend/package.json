@@ -1,0 +1,24 @@
+{
+  "name": "signup-backend",
+  "version": "1.0.0",
+  "description": "handling user registration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "signup",
+    "register",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Uday Nand",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "logger": "^0.0.1",
+    "mongoose": "^8.3.2"
+  }
+}

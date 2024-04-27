@@ -1,0 +1,57 @@
+.hero {
+    display: flex;
+    min-height: 100vh;
+    width: fit-content;
+  }
+  
+  .hero-image {
+    flex: 1;
+    background-image: url("path/to/your/image.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+  }
+
+  .square {
+    height: 300px;
+    width: 434px;
+    background-color: black;
+    position: absolute;
+    margin-top: 400px;
+    opacity: 75%;
+    justify-content: center;
+  }
+
+  .signUpform {
+    display: flex;
+  }
+  
+  .image-content {
+    justify-content: center;
+  }
+
+  .head-content{
+    text-align: left;
+    font-size: medium;
+    margin-top: 50px;
+  }
+  .hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    color:  #6846c6;
+    padding: 19px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
